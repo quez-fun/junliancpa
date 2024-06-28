@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang='zh-CN'>
+
+	<head>
+		<meta charset='UTF-8'>
+		<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+		<title>热点资讯 &#8211; 宁波君联会计师事务所 | 君联CPA</title>
+
+	</head>
+
+	<body>
+
+		<div id='header'></div>
+
+		<section class='header-bg header-bg-rdzx'>
+			<div class='elementor-background-overlay'>
+				<h1 class='header-title'>热点资讯</h1>
+			</div>
+		</section>
+
+		<section id='row-1'>
+
+			<div class='pthz-right'>
+
+				<div id="news-body">
+				</div>
+
+			</div>
+
+
+			<div class='rdzx-left'>
+				<div class='staff-box'>
+					<h2 class='elementor-header-title'>联 系 人</h2>
+					<p>
+						如果您对专项附加扣除有疑问和问题，需要委托专业机构申报，可联系我们税务咨询部</p>
+					<div class='staff-box-img'>
+						<div class='img staff-box-img-zp'></div>
+					</div>
+					<div class='staff-box-name'>周老师
+					</div>
+
+					<div class='staff-box-contact'>
+						<ul class='elementor-icon-list-items'>
+							<li class='elementor-icon-list-item'>
+								<i class='fa fa-mobile-phone'></i> 15088484220
+							</li>
+							<li class='elementor-icon-list-item'>
+								<i class='fa fa-phone'></i>0574-86960821
+							</li>
+							<li class='elementor-icon-list-item'>
+								<i class='fa fa-envelope-square'></i>zp@junliancpa.com
+							</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+
+		</section>
+
+		<div id='footer'></div>
+		<script type='text/javascript' src='./init.js'></script>
+		<script>
+
+			const newsBody = document.getElementById('news-body');
+			const id = window.location.search.slice(1);
+
+			fetch('./'+id+'.json')
+				//.then((response) => console.log(response))
+				.then((response) => response.json())
+				.then((json) => {
+					newsBody.innerHTML = '<h2>' + json.title + '</h2>' 
+						+ json.content;
+				})
+
+		</script>
+
+
+	</body>
+
+</html>
