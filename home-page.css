@@ -1,0 +1,347 @@
+.section1 {
+    background-image: url("./stock/DSCF0459.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background 10s;
+    padding: 10px 0px;
+    font-family: "Montserrat Alternates", Sans-serif;
+}
+
+.section1:hover {
+    background-position: top center;
+}
+
+.section1-1 {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.97);
+
+    font-size: 40px;
+    letter-spacing: 10px;
+    text-shadow: 0px 0px 3px rgba(163, 27, 0, 0.55);
+    width: 100%;
+    padding: 50px 0px 300px 0px;
+}
+
+.section1-2 {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.71);
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 10px;
+    mix-blend-mode: screen;
+}
+
+#service-area {
+    margin: 5px;
+}
+
+#service-area {
+    margin-bottom: 0px;
+}
+
+.service-bg {
+    display: block;
+    min-height: 250px;
+    margin-bottom: 5px;
+}
+
+.section3-2 {
+    margin: 0 5px;
+}
+
+.section4-1, .section2-1 {
+    margin-right: 5px;
+}
+
+.section2, .section3, .section4 {
+    display: flex;
+}
+
+
+.section2-1 {
+    height: 300px;
+    width: 33.333%;
+    background-image: url("./stock/2.1.1会计外包.jpeg");
+    background-position: top right;
+    background-size: cover;
+    transition: background 8s;
+}
+
+.section2-1:hover {
+    background-position: center left;
+}
+
+.section2-2 {
+    height: 300px;
+    width: 66.666%;
+    background-image: url("./stock/IMG_5406.jpeg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background 10s;
+}
+
+.section2-2:hover {
+    background-position: center center;
+}
+
+
+/* 半透明模块     display: none; */
+.section2-1-1, .section2-2-1, .section3-1-1, .section3-3-1, .section4-1-1-1, .section4-1-2-1,.section4-1-2-2, .section4-2-1-1, .section4-2-2-1 {
+    opacity: 60%;
+    height: 100%;
+    transition: opacity 0.5s;
+}
+
+.section2-1-1:hover, .section2-2-1:hover, .section3-1-1:hover, .section3-3-1:hover, .section4-1-1-1:hover, .section4-1-2-1:hover,.section4-1-2-2:hover, .section4-2-1-1:hover, .section4-2-2-1:hover {
+    opacity: 90%;
+}
+
+
+.section2-1-1 {
+    background-color: rgb(0, 55, 144);
+    margin-left: 50%;
+} 
+
+.section2-2-1 {
+    background-color: rgba(174, 0, 255);
+    margin-right: 65%;
+} 
+
+
+.section3-1-1 {
+    background-color: rgb(59, 59, 59);
+    margin-left: 50%;
+} 
+
+.section3-3-1 {
+    background-color: rgb(5, 57, 68);
+    margin-right: 50%;
+} 
+
+.section4-1-1-1 {
+    background-color: rgba(197, 69, 0, 0.705);
+    margin-right: 55%;
+} 
+
+.section4-1-2 {
+    display: flex;
+}
+.section4-1-2-1 {
+    width: 45%;
+    background-color: rgba(73, 52, 0, 0.634);
+} 
+.section4-1-2-2 {
+    width: 55%;
+    background-color:rgb(0, 106, 255);
+} 
+
+.section4-2-1-1 {
+    background-color:  rgba(0, 0, 159, 0.525);
+    margin-right: 50%;
+} 
+
+.section4-2-2-1 {
+    background-color: rgb(2, 182, 206);
+    margin-right: 50%;
+} 
+
+
+.service-title{
+    margin: 0;
+    padding: 105px 20px 0 50px;
+}
+.service-title>a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.service-description {
+    padding: 10px 20px 0px 50px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    font-weight: 200;
+}
+
+
+
+.section3-1 {
+    width: 40%;
+}
+
+.section3-2 {
+    width: 25%;
+}
+
+.section3-3 {
+    width: 35%;
+}
+
+
+
+.section3-1{
+    height: 300px;
+    background-image: url("./stock/2.4.1税务咨询.jpg");
+    background-position: top left;
+    background-size: cover;
+    transition: background 3s;
+
+}
+
+.section3-1:hover {
+    background-position: center right;
+}
+
+
+.section3-2 {
+    height: 300px;
+    background-image: url("./stock/1.2center.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section3-3{
+    height: 300px;
+    background-image: url("./stock/3.3.3年度财务报表审计.jpg");
+    background-position: top right;
+    background-size: cover;
+    transition: background 3s;
+}
+
+.section3-3:hover {
+    background-position: center left;
+}
+
+
+
+.section4 {
+    display: flex;
+}
+
+.section4-1 {
+    width: 50%;
+}
+
+.section4-2 {
+    width: 50%;
+}
+
+.section4-1-1 {
+    height: 550px;
+    background-image: url("./stock/2.2.2高净值人群个税解决方案.jpeg");
+    background-position: center right;
+    background-size: cover;
+    transition: background 14s;
+}
+
+.section4-1-1:hover {
+    background-position: center left;
+}
+
+.section4-1-2 {
+    height: 300px;
+    background-image: url("./stock/2.2.1个人所得税纳税申报审核.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background 0.3s;
+}
+
+.section4-2-1 {
+    background-position: center left;
+}
+
+.section4-2-1 {
+    height: 350px;
+    background-image: url("./stock/2.4.2财税培训.jpeg");
+    background-position: center right;
+    background-size: cover;
+    transition: background 8s;
+}
+.section4-2-1:hover {
+    background-position: top left;
+}
+
+
+.section4-2-2{
+    height: 500px;
+    background-image: url("./stock/2.1.1企业设立.jpeg");
+    background-position: top right;
+    background-size: cover;
+    transition: background 13s;
+
+}
+
+.section4-2-2:hover {
+    background-position: center left;
+}
+
+
+
+@media(max-width:800px) {
+
+    .section1-1 {
+        font-size: 25px;
+        line-height: 0.1em;
+        letter-spacing: 8px;
+        padding-bottom: 150px;
+    }
+    .section1-2 {
+        font-size: 15px;
+        letter-spacing: 5px;
+        padding-bottom: 10px;
+    }
+
+    .section2, .section3, .section4 {
+        display: block;
+    }
+    .section4-1, .section4-2 {
+        width: 100%;
+    }
+
+    .section3-2 {
+        display: none;
+    }
+
+    .service-bg {
+        width: 100%;
+        height: 180px !important;
+    }
+
+    .service-title{
+        padding: 75px 20px 0 35px;
+    }
+
+    .service-description {
+        padding: 10px 20px 0px 35px;
+    }
+
+    .section2-2-1, .section4-1-1-1 {
+        margin-right: 50%;
+    } 
+
+    .section4-1-2-1, .section4-1-2-2 {
+        width: 50%;
+    } 
+
+    .section4-2-2 {
+        height: 400px !important;
+    }
+
+}
+
+@media(max-width:1200px) {
+
+    .service-title{
+        padding: 80px 20px 0 35px;
+    }
+
+    .service-description {
+        padding: 10px 20px 0px 35px;
+    }
+
+}
